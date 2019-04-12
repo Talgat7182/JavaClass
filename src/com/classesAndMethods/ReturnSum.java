@@ -13,15 +13,16 @@ public class ReturnSum {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 
-		obj.sum(a, b);
+	//   obj.sum(a, b);
 		// expecting numbers  
-		
+	System.out.println(obj.sum(a,b));	
+	
 	}
 
 	
 	int sum(int x, int y) {
 
-		System.out.println(x + y);
+		//System.out.println(x + y);
 
 		return x + y;
 		

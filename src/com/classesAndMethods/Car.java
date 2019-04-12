@@ -40,6 +40,7 @@ public class Car {
 		car1.drive();
 		car1.reverse();
 		car1.stop();
+		//car2.drive();
 		System.out.println("---------------Second Object------------------");
        // car2.drive();
 	}
@@ -60,5 +61,7 @@ public class Car {
 	void stop() {
 		System.out.println("Car can stop");
 	}
+	
+	//void car2( ) {System.out.println("isGreat"); }
 
 }
