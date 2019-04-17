@@ -11,10 +11,11 @@ public class CountriesTwoDim {
 		for (int row = 0; row < countries.length; row++) {
 			for (int col = 0; col < countries[row].length; col++) {
 			
-				System.out.println(countries[row][col] + " ");
+				System.out.print(countries[row][col] + " ");
 
 			}
 
+			System.out.println();
 		}
 
 	}

@@ -1,4 +1,4 @@
-package com.arrays;
+ package com.arrays;
 
 public class ForEachIn2D {
 public static void main(String[] args) {

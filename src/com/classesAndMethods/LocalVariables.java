@@ -9,10 +9,12 @@ public class LocalVariables {
 		// it is a local variable & it is visible only to the main method
 		// your main method is an entry method for the execution 
 		// name will be passed to the argument; 
-		String name ="John Travolta"; 
+		String name="John Travolta"; 
 
 		
 		LocalVariables obj = new LocalVariables(); 
+	
+		
 		obj.hello(name);
 		System.out.println(name);
 	}

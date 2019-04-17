@@ -3,7 +3,7 @@ package com.classesAndMethods;
 public class Humans {
 	
 	
-    String eyeColor = "Brown"; 
+ String eyeColor = "Brown"; 
 	int height = 6;
 	int weight = 180; 
 	String gender = "Female";

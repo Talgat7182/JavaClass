@@ -11,12 +11,16 @@ public class StringManapulationsMore {
 		char character = str.charAt(4);
 
 	    System.out.println(character);
+	   // System.out.println(str.charAt(4));
 
 		for (int i = 0; i < str.length(); i++) {
 
 			System.out.print(str.charAt(i) + ",");
+			
+			
 		}
-    System.out.println();
+		System.out.println();
+    System.out.println("--index---");
 		String str1 = "Sunday";
 		int index = str1.indexOf("n");
 		System.out.println(index);

@@ -32,6 +32,7 @@ public class Dogz {
 		dog3.height = 30;
 		dog3.getDogzProperties();
 
+		
 		dog1.getDogzProperties();
 		dog2.getDogzProperties();
 		System.out.println(breed);

@@ -15,8 +15,10 @@ public class Carz {
 		totalCars++;
 		// car1.totalCars++;
 		Carz car2 = new Carz();
+
 		car2.color = "navy blue";
-		// car2.totalCars++;
+		
+		//car2.totalCars++;
 		totalCars++;
 
 		System.out.println("Total cars we made is " + totalCars);

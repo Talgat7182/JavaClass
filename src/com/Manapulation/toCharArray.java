@@ -22,11 +22,11 @@ public static void main(String[] args) {
 	
 	System.out.println();
 	
-     System.out.print(array.length);
+     System.out.println(array.length);
 	
 	
 	for(char c:array) { 
-	System.out.println(c);
+	System.out.print(c);
 	}
 	
 	// Reverse 

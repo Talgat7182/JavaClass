@@ -8,6 +8,7 @@ public class InstanceVariables {
 		// not visible to my class, local variable
 		String name = "Anna";
 		System.out.println(name);
+		
 
 		InstanceVariables obj = new InstanceVariables();
 
@@ -16,12 +17,14 @@ public class InstanceVariables {
 		// you can change/ override it under each object
 		obj.name = "Jack";
 		System.out.println(obj.name);
+		//obj.hello();
 
 		// obj & obj1 do not communicate.... that is why it goes to the global to access
 		// its copy;
 		InstanceVariables obj1 = new InstanceVariables();
 		// each gets its own copy
 		System.out.println(obj1.name);
+		//obj1.hello();
 	}
 	public void hello() { 
 		System.out.println("Hello "+ name);

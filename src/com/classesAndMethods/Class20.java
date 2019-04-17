@@ -11,6 +11,7 @@ public class Class20 {
 		String l = obj.lastName("makabayev");
 
 		String e = obj.emailAddress("@gmail.com");
+		
 		System.out.println(n + l + e);
 
 	}
